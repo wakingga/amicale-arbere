@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amicale d'Arbère - Association de l'école d'Arbère</title>
+    <title>Amicale d'Arbère - Prochains événements</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,106 +11,140 @@
         <nav>
             <div class="container">
                 <div class="logo-container">
-                    <img src="logo.png" alt="Amicale d'Arbère" class="logo">
+                    <a href="index.html">
+                        <img src="logo.png" alt="Amicale d'Arbère" class="logo">
+                    </a>
                 </div>
                 <ul>
-                    <li><a href="#accueil">Accueil</a></li>
-                    <li><a href="#evenements">Événements</a></li>
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li><a href="about.html">À propos</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <section id="accueil" class="hero">
+    <section class="hero hero-home">
         <div class="container">
             <img src="logo.png" alt="Amicale d'Arbère" class="hero-logo">
-            <h2>Bienvenue à l'Amicale d'Arbère</h2>
+            <h1>Amicale d'Arbère</h1>
             <p class="tagline">Ensemble pour nos enfants</p>
-            <p>L'Amicale d'Arbère est une association qui soutient l'école d'Arbère à Divonne-les-Bains en finançant des projets scolaires, notamment les voyages et sorties éducatives.</p>
+            <p class="hero-subtitle">Soutenez l'école d'Arbère en participant à nos événements</p>
         </div>
     </section>
 
-    <section id="mission" class="section">
+    <section id="prochains-evenements" class="section">
         <div class="container">
-            <h2>Notre Mission</h2>
-            <div class="mission-grid">
-                <div class="mission-card">
-                    <h3>🎯 Financer</h3>
-                    <p>Nous finançons les projets scolaires et les voyages éducatifs pour enrichir l'expérience des élèves.</p>
+            <h2>Prochains Événements</h2>
+            <p class="section-intro">Rejoignez-nous lors de nos prochains rendez-vous !</p>
+            
+            <div class="featured-events">
+                <div class="featured-event-card highlight">
+                    <div class="event-date-badge">
+                        <div class="date-day">15</div>
+                        <div class="date-month">Nov</div>
+                        <div class="date-year">2024</div>
+                    </div>
+                    <div class="event-content">
+                        <h3>Soirée des Illuminations</h3>
+                        <p class="event-description">Retrouvez-nous sur notre stand lors de la Soirée des Illuminations de Divonne ! Venez découvrir nos actions, discuter avec les membres du bureau et soutenir l'association.</p>
+                        <div class="event-info-grid">
+                            <div class="event-info-item">
+                                <span class="info-icon">📍</span>
+                                <span>Centre-ville de Divonne</span>
+                            </div>
+                            <div class="event-info-item">
+                                <span class="info-icon">🕐</span>
+                                <span>18h00 - 22h00</span>
+                            </div>
+                            <div class="event-info-item">
+                                <span class="info-icon">🎯</span>
+                                <span>Entrée libre</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="mission-card">
-                    <h3>🤝 Rassembler</h3>
-                    <p>Nous créons du lien entre les familles, les enseignants et la communauté locale.</p>
+
+                <div class="featured-event-card">
+                    <div class="event-date-badge">
+                        <div class="date-day">10</div>
+                        <div class="date-month">Déc</div>
+                        <div class="date-year">2024</div>
+                    </div>
+                    <div class="event-content">
+                        <h3>Vente de Fondues</h3>
+                        <p class="event-description">Commandez vos fondues pour les fêtes ! Produits d'un producteur local de qualité. Parfait pour vos soirées d'hiver en famille ou entre amis.</p>
+                        <div class="event-info-grid">
+                            <div class="event-info-item">
+                                <span class="info-icon">🧀</span>
+                                <span>Producteur local</span>
+                            </div>
+                            <div class="event-info-item">
+                                <span class="info-icon">📦</span>
+                                <span>Retrait à l'école</span>
+                            </div>
+                            <div class="event-info-item">
+                                <span class="info-icon">📅</span>
+                                <span>Commandes jusqu'au 5 déc</span>
+                            </div>
+                        </div>
+                        <a href="mailto:amicale.arbere@gmail.com" class="btn btn-secondary">Commander</a>
+                    </div>
                 </div>
-                <div class="mission-card">
-                    <h3>🎉 Animer</h3>
-                    <p>Nous organisons des événements conviviaux tout au long de l'année scolaire.</p>
+
+                <div class="featured-event-card major-event">
+                    <div class="event-ribbon">Événement majeur</div>
+                    <div class="event-date-badge">
+                        <div class="date-day">14</div>
+                        <div class="date-month">Juin</div>
+                        <div class="date-year">2025</div>
+                    </div>
+                    <div class="event-content">
+                        <h3>Fête de l'École</h3>
+                        <p class="event-description"><strong>Le grand rendez-vous de l'année !</strong> Une journée festive avec restauration complète, buvette, animations pour les enfants, tombola, concert et DJ en soirée.</p>
+                        <div class="event-info-grid">
+                            <div class="event-info-item">
+                                <span class="info-icon">🎪</span>
+                                <span>École d'Arbère</span>
+                            </div>
+                            <div class="event-info-item">
+                                <span class="info-icon">🍔</span>
+                                <span>Burgers, frites, hot-dogs</span>
+                            </div>
+                            <div class="event-info-item">
+                                <span class="info-icon">🎨</span>
+                                <span>Maquillage, jeux, tombola</span>
+                            </div>
+                            <div class="event-info-item">
+                                <span class="info-icon">🎵</span>
+                                <span>Concert + DJ</span>
+                            </div>
+                            <div class="event-info-item">
+                                <span class="info-icon">🕐</span>
+                                <span>14h00 - 23h00</span>
+                            </div>
+                            <div class="event-info-item">
+                                <span class="info-icon">👨‍👩‍👧‍👦</span>
+                                <span>Tout public</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="evenements" class="section bg-light">
+    <section class="section bg-light cta-section">
         <div class="container">
-            <h2>Nos Événements</h2>
-            <div class="events-grid">
-                <div class="event-card">
-                    <div class="event-month">Novembre</div>
-                    <h3>Soirée des Illuminations</h3>
-                    <p>Stand de l'Amicale lors de la Soirée des Illuminations de Divonne. Venez nous rencontrer et soutenir nos actions !</p>
-                    <div class="event-details">
-                        <span>📍 Centre-ville de Divonne</span>
-                    </div>
-                </div>
-
-                <div class="event-card">
-                    <div class="event-month">Décembre</div>
-                    <h3>Vente de Fondues</h3>
-                    <p>Commandez nos délicieuses fondues d'un producteur local. Parfait pour les soirées d'hiver en famille !</p>
-                    <div class="event-details">
-                        <span>🧀 Producteur local</span>
-                    </div>
-                </div>
-
-                <div class="event-card highlight">
-                    <div class="event-month">Juin</div>
-                    <h3>Fête de l'École</h3>
-                    <p><strong>L'événement majeur de l'année !</strong> Restauration (burgers, frites, hot-dogs), buvette, animations (maquillage, jeux, tombola), concert et DJ.</p>
-                    <div class="event-details">
-                        <span>🎪 École d'Arbère</span>
-                        <span>🎵 Concert + DJ</span>
-                    </div>
-                </div>
+            <div class="cta-content">
+                <h2>Envie d'en savoir plus ?</h2>
+                <p>Découvrez notre mission, nos actions et l'impact de votre soutien</p>
+                <a href="about.html" class="btn btn-large">Découvrir l'association</a>
             </div>
         </div>
     </section>
 
-    <section id="impact" class="section">
-        <div class="container">
-            <h2>Notre Impact en 2024</h2>
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-number">12 500€</div>
-                    <div class="stat-label">Collectés</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">8 500€</div>
-                    <div class="stat-label">Reversés aux projets</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">3</div>
-                    <div class="stat-label">Voyages financés</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">250+</div>
-                    <div class="stat-label">Familles impliquées</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="section bg-light">
+    <section id="contact" class="section">
         <div class="container">
             <h2>Nous Contacter</h2>
             <div class="contact-content">
