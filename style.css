@@ -191,20 +191,30 @@ nav a.active {
 }
 
 .featured-event-card.major-event {
+    overflow: visible;
     border: 3px solid var(--accent-color);
+    box-shadow: 0 6px 20px rgba(255, 193, 7, 0.3);
+}
+
+.featured-event-card.major-event:hover {
+    box-shadow: 0 8px 25px rgba(255, 193, 7, 0.4);
+    transform: translateY(-8px);
 }
 
 .event-ribbon {
     position: absolute;
-    top: 20px;
-    right: -35px;
+    top: 15px;
+    right: -40px;
     background: var(--accent-color);
     color: var(--white);
-    padding: 5px 40px;
+    padding: 8px 50px;
     transform: rotate(45deg);
-    font-size: 0.85rem;
-    font-weight: 600;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    font-size: 0.9rem;
+    font-weight: 700;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+    z-index: 10;
+    white-space: nowrap;
+    letter-spacing: 0.5px;
 }
 
 .event-date-badge {
@@ -574,8 +584,14 @@ footer {
     }
 
     .event-ribbon {
-        font-size: 0.75rem;
-        padding: 3px 30px;
+        font-size: 0.7rem;
+        padding: 6px 35px;
+        right: -30px;
+        top: 12px;
+    }
+    
+    .featured-event-card.major-event {
+        overflow: visible;
     }
 
     .financing-timeline::before {
